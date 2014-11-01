@@ -14,7 +14,7 @@ end
 
 class Phoenix < Formula
   homepage 'https://github.com/phoenixframework/phoenix'
-  head 'https://github.com/phoenixframework/phoenix.git'
+  head 'https://github.com/phoenixframework/phoenix.git', :tag => 'v0.5.0'
 
   depends_on MixInstalled
 
