@@ -19,6 +19,6 @@ class Phoenix < Formula
   depends_on MixInstalled
 
   def install
-    system 'mix', 'deps.get,', 'compile'
+    system 'mix', 'do', 'deps.get,', 'compile'
   end
 end
